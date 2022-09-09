@@ -12,7 +12,8 @@ which is the initial voice recording will be reconstructed.
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Methodology `
 
-Voice Massage Input:
+![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `Voice Massage Input`
+
 In our project, we have taken 3 different voice records. Those voice
 recordings are converted in to massage signals through MATLAB. Each
 voice has different frequency ranges. As we know male and female voices
@@ -20,22 +21,26 @@ have different frequency ranges (female voice is sharper than male voice),
 the input massages that we took can’t be of the same frequency. In our
 project, we took two male voice records and one female voice record.
 
-Low Pass Filter:
+![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `Low Pass Filter`
+
 After taking the input massage signal, we put those signals through low pass
 filter to eliminate the unwanted over noise and have the signals in range.
 Here, the frequency range we took was from 3.3kHz to 3.7kHz
 
-Carrier signals:
+![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `Carrier signals`
+
 To have this transmission, three different carrier signals have been taken. All
 of them have different frequency range. Those carrier signals are 1MHz
 ,4MHz and 8MHz
 
- Modulation:
+![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `Modulation`
+
 In the modulator the modulation has been done for each signal. Three signals
 have been modulated with three different carriers. After the modulation themodulator generates a modulated signal and the output signal carries the
 carrier’s frequency with the massage signal
 
-Multiplexing:
+![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `Multiplexing`
+
 All the signals are combined together for the transmission in this
 multiplexing stage. As the three different modulated signals will be
 transmitted at a time, they make a packet by multiplexing. Suppose the three
