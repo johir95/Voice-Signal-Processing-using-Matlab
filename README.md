@@ -46,6 +46,37 @@ multiplexing stage. As the three different modulated signals will be
 transmitted at a time, they make a packet by multiplexing. Suppose the three
 modulated signals are
 
+![111111111111](https://user-images.githubusercontent.com/90377555/189332527-b54cc94a-2230-45c2-8c29-e594bee1d1f3.jpg)
+
+
+![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `Band Pass Filter`
+
+After the transmission, the multiplexed signal will go through the band pass
+filter. This process will work like a demultiplexing process. In this stage, the
+signal having three massages gets separated from each other by the band pass
+filter. As we know the signals have different frequency ranges so that theyare not mixed together. And in between the massages of these signals, there
+is a guard band. This guard band stops the three massage signals from mixing
+up. Usually for the transmission, the guard band is of (300+600)
+kHz=900kHz range.
+
+
+
+![#c5f015](https://via.placeholder.com/15/c5f015/c5f015.png) `Demodulator`
+
+The separated signals that we got after the demultiplexing stage they are not
+quiet the massage signals. To get the actual massage signal, demodulation
+have been done. By demodulating the carriers have been removed and
+demodulator’s output is more likely to the massage signals. The signals we
+get from here are the reconstructed signals of our massage signal. With
+MATLAB, we get to convert these massages into voice massage again to
+hear the massage signals in the receiver side
+
+
+![22222222](https://user-images.githubusercontent.com/90377555/189333391-4062f0d2-3d6c-4609-9ea9-a71a198960f1.jpg)
+
+
+
+
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Conclusion `
 
