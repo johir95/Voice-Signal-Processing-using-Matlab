@@ -8,7 +8,10 @@ through a common channel. The recordings will then be passed through a band
 pass filter and demodulated afterwards.Soon after the original messege signal
 which is the initial voice recording will be reconstructed.
 
-<span style="color: green"> Methodology </span>
+
+
+
+Methodology 
 Voice Massage Input:
 In our project, we have taken 3 different voice records. Those voice
 recordings are converted in to massage signals through MATLAB. Each
