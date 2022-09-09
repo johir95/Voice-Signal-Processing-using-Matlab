@@ -1,6 +1,8 @@
 # Voice-Signal-Processing-using-Matlab
 
-Abstract: Here we will proceed to record 3 distinct voices.Two male and one
+- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Abstract ` 
+
+Here we will proceed to record 3 distinct voices.Two male and one
 female. Then we will pass them through a lowpass filter. After that these
 recordings will be modulated , it is to be noted that each of the recordings will be
 modulated using carrier signals of varying frequency. After that they will be sent
@@ -8,10 +10,8 @@ through a common channel. The recordings will then be passed through a band
 pass filter and demodulated afterwards.Soon after the original messege signal
 which is the initial voice recording will be reconstructed.
 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Methodology `
 
-
-
-Methodology 
 Voice Massage Input:
 In our project, we have taken 3 different voice records. Those voice
 recordings are converted in to massage signals through MATLAB. Each
@@ -39,4 +39,20 @@ Multiplexing:
 All the signals are combined together for the transmission in this
 multiplexing stage. As the three different modulated signals will be
 transmitted at a time, they make a packet by multiplexing. Suppose the three
-modulated signals are,
+modulated signals are
+
+
+- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Conclusion `
+
+I n conclusion the assignment was completed successfully. This particular problem
+had several key steps modulating, demodulating and reconstructing. Also we had
+to work with audio files. Completing all these steps required hundreds of lines of
+MATLAB code. After completing it, the first few times the code didn't run the
+way it was supposed to. So we had check for errors. After going through the code a
+few times we ran it again this time we changed a few things. At first we tried using
+6 second recordings and we were unsuccessful. Then we extended the size of the
+recordings to 10 seconds and that seemed to be the answer. After sorting that out
+that we observed that there was still some noise in the output. We fixed that using
+another Low pass filter. And finally in order to get a clear output we had to adjust
+the gain properly. All in all the problem was somewhat challenging but we got the
+job done in the end.
