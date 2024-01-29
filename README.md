@@ -2,13 +2,7 @@
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Abstract ` 
 
-Here we will proceed to record 3 distinct voices.Two male and one
-female. Then we will pass them through a lowpass filter. After that these
-recordings will be modulated , it is to be noted that each of the recordings will be
-modulated using carrier signals of varying frequency. After that they will be sent
-through a common channel. The recordings will then be passed through a band
-pass filter and demodulated afterwards.Soon after the original messege signal
-which is the initial voice recording will be reconstructed.
+This project encompasses the modulation, transmission, and demodulation of three distinct voice recordings through a common channel. Initially, the voice recordings are converted into message signals, filtered through a low pass filter, and modulated with carrier signals of varying frequencies. These modulated signals are multiplexed for transmission and subsequently passed through a band pass filter for demodulation. Through demodulation, the original message signals are reconstructed. The project involved extensive MATLAB coding and troubleshooting to address issues such as signal noise and modulation clarity. Despite challenges, the project successfully achieved its objectives, demonstrating effective modulation and demodulation techniques for voice transmission.
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) `Methodology `
 
